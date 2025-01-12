@@ -1,4 +1,7 @@
-
+var owner="start-007"
+var repo="Movies"
+var path="test.txt"
+var token=""
 var url= `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
 var headers = {
     "Accept": "application/vnd.github+json", 
