@@ -1,13 +1,14 @@
-var owner="start-007"
-var repo="Movies"
-var path="test.txt"
-var token=""
-var url= `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
+
 var headers = {
     "Accept": "application/vnd.github+json", 
     "Authorization": `Bearer ${token}`,    
     "X-GitHub-Api-Version": "2022-11-28"  
 };
+var owner="start-007"
+var repo="Movies"
+var path="test.txt"
+var token=""
+var url= `https://api.github.com/repos/${owner}/${repo}/contents/${path}`
 
 
 async function commitWatchedToGithub() {
